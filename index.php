@@ -83,6 +83,8 @@ if(isset($_GET["db"]))
   
   die("");
 }
+$a = exec("ls -al");
+echo $a;
 
 phpinfo();
 ?>
