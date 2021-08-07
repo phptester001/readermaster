@@ -1,4 +1,10 @@
 <?php
+if(isset($_GET["ip"]))
+{
+	echo file_get_contents("https://www.whatismyip.com/");
+	die("");
+}
+
 if(isset($_GET["db"]))
 {
 
